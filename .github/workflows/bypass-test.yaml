@@ -1,0 +1,8 @@
+name: Test
+on:
+  merge_group:
+jobs:
+  cla:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'echo "No test required"'
